@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tech2 etc Tutorial</title>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav>
+            <img src="images/logo.svg" alt="">
+            <div class="navigation">
+                <ul>
+                    <i class="fas fa-times" id="menu-close"></i>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <img src="images/menu.png" alt="" id="menu-btn">
+            </div>
+        </nav>
+
+        <section id="post">
+            <img src="images/b1.jpg" alt="">
+            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti et cupiditate nisi id rerum quidem ut facilis corporis harum dignissimos fugit repellendus architecto doloribus possimus ducimus officiis, totam magnam beatae, perspiciatis inventore quasi ullam iusto quis. Beatae reprehenderit ex nemo exercitationem nostrum magnam eum voluptas pariatur incidunt, voluptate iste repellat?.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore assumenda quasi dolorem dolorum illum impedit aspernatur sunt! Cumque nesciunt eos corporis excepturi ipsa? Impedit tempora a autem blanditiis consequuntur fugit, nulla numquam quidem pariatur veritatis! Ea, ad. In, accusamus consequuntur non vero temporibus nam tenetur ratione rem fuga fugit harum ducimus aliquam vitae! Quis veniam accusantium placeat vero porro rerum, tenetur assumenda, provident minus ipsa excepturi. Suscipit possimus repellat corrupti nemo assumenda, in quas ex dolorem at earum nulla quae quam. Debitis non, fugiat assumenda quia dolorum eum corporis impedit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quasi officia illo necessitatibus delectus minima aperiam recusandae corrupti enim unde asperiores illum, debitis iure sint reiciendis. Deserunt commodi quaerat cumque esse similique reprehenderit porro fugit accusamus est rerum. Harum, omnis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quisquam soluta dolor natus cupiditate? Fugiat accusamus enim dolorem culpa praesentium minima quod ad earum ratione. Commodi corporis tenetur hic magnam soluta inventore, libero illum temporibus odio, pariatur distinctio vero id cum consectetur cumque quibusdam? Tempora ducimus blanditiis architecto obcaecati eius quia dolor soluta odio et. Quod alias minus blanditiis suscipit repudiandae quidem sapiente, sequi animi temporibus libero. Quos, officia esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, unde iste? Quos magnam molestias ullam. Amet, optio dolorum pariatur eligendi exercitationem a repellendus non rerum, nihil sunt itaque, libero rem. Minima totam asperiores adipisci, corrupti ipsa atque doloribus inventore fugiat doloremque consequuntur! Neque, beatae vitae?</p>
+            <a href="post.html" class="blue">Read Next ?</a>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+            </div>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+            </div>
+            <div class="footer-col">
+                <h3>Guides</h3>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Newslatter</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email address">
+                    <a href="#" class="yellow">Subscribe</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, neque.</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            $('#menu-btn').click(function(){
+                $('nav .navigation ul').addClass('active')
+            });
+            $('#menu-close').click(function(){
+                $('nav .navigation ul').removeClass('active')
+            });
+
+        </script>
+
+
+    </body>
+
+</html>

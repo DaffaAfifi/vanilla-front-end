@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tech2 etc Tutorial</title>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav>
+            <img src="images/logo.svg" alt="">
+            <div class="navigation">
+                <ul>
+                    <i class="fas fa-times" id="menu-close"></i>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <img src="images/menu.png" alt="" id="menu-btn">
+            </div>
+        </nav>
+
+        <!-- Home -->
+        <section id="blog-home">
+            <h2>Blog TechEduca</h2>
+        </section>
+        
+        <section id="blog-container">
+            <div class="blogs">
+                <div class="blog">
+                    <img src="images/b1.jpg" alt="">
+                    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum veniam architecto, consequuntur officiis, accusantium natus alias facilis doloremque dolorum, sequi iste minima velit consectetur perferendis dicta consequatur aliquid harum necessitatibus.</p>
+                    <a href="post.html" class="blue">Read More</a>
+                </div>
+                <div class="blog">
+                    <img src="images/b2.jpg" alt="">
+                    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum veniam architecto, consequuntur officiis, accusantium natus alias facilis doloremque dolorum, sequi iste minima velit consectetur perferendis dicta consequatur aliquid harum necessitatibus.</p>
+                    <a href="" class="blue">Read More</a>
+                </div>
+                <div class="blog">
+                    <img src="images/b3.jpg" alt="">
+                    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum veniam architecto, consequuntur officiis, accusantium natus alias facilis doloremque dolorum, sequi iste minima velit consectetur perferendis dicta consequatur aliquid harum necessitatibus.</p>
+                    <a href="" class="blue">Read More</a>
+                </div>
+                <div class="blog">
+                    <img src="images/b4.png" alt="">
+                    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum veniam architecto, consequuntur officiis, accusantium natus alias facilis doloremque dolorum, sequi iste minima velit consectetur perferendis dicta consequatur aliquid harum necessitatibus.</p>
+                    <a href="" class="blue">Read More</a>
+                </div>
+            </div>
+            <div class="categories">
+                <ul>
+                    <li class="categories-header">Categories</li>
+                    <li>Web Development</li>
+                    <li>Web Design</li>
+                    <li>App Deployment</li>
+                    <li>Frontend Web</li>
+                    <li>Python Programming</li>
+                    <li class="categories-last">Javascript Hacks</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+            </div>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+            </div>
+            <div class="footer-col">
+                <h3>Guides</h3>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Newslatter</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email address">
+                    <a href="#" class="yellow">Subscribe</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, neque.</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            $('#menu-btn').click(function(){
+                $('nav .navigation ul').addClass('active')
+            });
+            $('#menu-close').click(function(){
+                $('nav .navigation ul').removeClass('active')
+            });
+
+        </script>
+
+
+    </body>
+
+</html>
